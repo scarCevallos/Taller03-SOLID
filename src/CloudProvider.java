@@ -1,3 +1,3 @@
-public interface CloudServicePlatforms {
-
+public interface CloudProvider {
+    void connect(AppWeb appWeb);
 }

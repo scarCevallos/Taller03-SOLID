@@ -1,6 +1,5 @@
-public class LogInAdmin extends LogIn {
+public class LogInAdmin {
     private boolean userIsAdmin;
-    @Override
     public void log (User user) {
         this.userIsAdmin = verifyIfTheUserIsAdmin(user);
         if(!userIsAdmin){
